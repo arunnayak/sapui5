@@ -1,4 +1,3 @@
-// Generated on 2017-10-12 using generator-sapui5 0.0.1
 'use strict';
 
 var LIVERELOAD_PORT = 35729;
@@ -53,7 +52,6 @@ module.exports = function(grunt) {
     connect: {
       options: {
         port: SERVER_PORT,
-        // change this to '0.0.0.0' to access the server from outside
         hostname: 'localhost'
       },
       livereload: {
